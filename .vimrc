@@ -1,0 +1,4 @@
+colorscheme murphy
+
+set smartindent
+
