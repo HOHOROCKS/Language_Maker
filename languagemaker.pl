@@ -10,7 +10,7 @@ my ($file) = @ARGV;
 
 my %wordcount;
 open (my $in, "<$file") or die "Can't open $file\n";
-my $outfile = "text created from $file";
+my $outfile = "text created from $file.txt";
 open (my $out, ">$outfile") or die "error creating $outfile";
 while (my $words = <$in>) {
 	    chomp $words;
