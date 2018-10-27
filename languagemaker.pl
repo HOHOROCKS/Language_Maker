@@ -3,7 +3,8 @@
 use strict; use warnings;
 #finds n letter frequencies in a file and prints them and their frequencies out
 
-die "Must input file\n" if (@ARGV != 1);
+die "Must only input one file\n" if (@ARGV > 1);
+die "Must input one file\n" if (@ARGV <1);
 
 my ($file) = @ARGV; 
 
